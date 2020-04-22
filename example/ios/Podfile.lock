@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_ios_pay (0.0.1):
+    - Flutter
+    - MonkeyKing
+  - MonkeyKing (1.16.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_ios_pay (from `.symlinks/plugins/flutter_ios_pay/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MonkeyKing
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_ios_pay:
+    :path: ".symlinks/plugins/flutter_ios_pay/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_ios_pay: 553eb117b3f99ae2f3e5917fc6a6e4aa23ea6a13
+  MonkeyKing: dc5076dc206bf9e6eb427d618317eff1b44b0666
+
+PODFILE CHECKSUM: 0ba44ad07df4ab62269dc769727cf0f12b1e453d
+
+COCOAPODS: 1.9.1
