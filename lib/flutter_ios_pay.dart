@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 
 class FlutterIosPay {
   static const MethodChannel _methodChannel =
-      const MethodChannel('flutter_ios_pay_method');
+      const MethodChannel('flutter_ios_pay');
 
   Future<bool> isWeChatInstalled() async {
     return await _methodChannel.invokeMethod("isWeChatInstalled");
